@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+<body>
+
+  <header></header>
+  
+  <p>
+    Min : 0 <br>
+    Max : 100 <br>
+    low : 15 <br>
+    high : 80
+  </p>
+
+  <form action="">
+    <label for="batt">Nivel de Batería: 81%</label>
+    <meter id="batt" min="0" max="100" low="15" high="80" optimum="100" value="81">at 80/100</meter>
+  </form>
+
+  <hr>
+
+  <form action="">
+    <label for="batt">Nivel de Batería: 14%</label>
+    <meter id="batt" min="0" max="100" low="15" high="80" optimum="100" value="14">at 80/100</meter>
+  </form>
+
+  <hr>
+
+  <form action="">
+    <label for="batt">Nivel de Batería: 33%</label>
+    <meter id="batt" min="0" max="100" low="15" high="80" optimum="100" value="33">at 80/100</meter>
+  </form>
+
+  <p>
+    A los valores entre 80 y 100 se los consideran como un rango deseable que aparecerá en color verde. <br>
+    A los valores entre 15 y 80 se los consideran como un rango medio que aparecerá en color amarillo. <br>
+    A los valores entre 0 y 15 se los consideran como un rango bajo que aparecerá en color rojo.
+  </p>
+</body>
+</html>
